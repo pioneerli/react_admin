@@ -68,4 +68,4 @@ AppHeader.propTypes = {
     loginOut: PropTypes.func
 }
 
-export default React.memo(AppHeader)
+export default AppHeader

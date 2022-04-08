@@ -14,4 +14,5 @@ const AboutView = () => (
         </div>
     </Layout>
 )
+
 export default AboutView
