@@ -1,3 +1,11 @@
+/*
+ * @Descripttion:
+ * @Author: julius
+ * @version:
+ * @Date: 2022-04-08 11:20:53
+ * @LastEditors: julius
+ * @LastEditTime: 2022-04-08 11:55:09
+ */
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Menu, Dropdown, Icon, Layout, Avatar, Badge } from 'antd'
@@ -38,13 +46,13 @@ const AppHeader = props => {
             </div>
             <div className='right'>
                 <div className='mr15'>
-                    <a rel='noopener noreferrer' href='https://github.com/ltadpoles/react-admin' target='_blank'>
+                    <a rel='noopener noreferrer' href='https://github.com/pioneerli/react_admin' target='_blank'>
                         <Icon type='github' style={{ color: '#000' }} />
                     </a>
                 </div>
                 <div className='mr15'>
                     <Badge dot={true} offset={[-2, 0]}>
-                        <a href='https://github.com/ltadpoles/react-admin' style={{ color: '#000' }}>
+                        <a href='https://github.com/pioneerli/react_admin' style={{ color: '#000' }}>
                             <Icon type='bell' />
                         </a>
                     </Badge>
